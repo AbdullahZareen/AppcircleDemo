@@ -15,7 +15,6 @@ import {
   Text,
   useColorScheme,
   View,
-
 } from 'react-native';
 
 import {
@@ -56,7 +55,7 @@ function Section({ children, title }: SectionProps): JSX.Element {
   );
 }
 
-function App(props: any): JSX.Element {
+function App(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
